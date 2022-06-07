@@ -1,0 +1,103 @@
+@import "reset.css";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+* {
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+html,
+body {
+    background: linear-gradient(to bottom right, #F0F4FF, #A5B6EE);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+
+.header-logo {
+    background-image: url(./img/weniv-logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 224px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 72px;
+    margin-bottom: 60px;
+
+}
+
+.section-timerBox {
+    background: linear-gradient(to bottom right, #5572BB, #374B7C);
+    border-radius: 16px;
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+    padding: 48px 58px 40px;
+    width: 400px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+.section-title {
+    /* Bold_24px */
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-bottom: 1px solid #3D538A
+}
+
+
+[class*='timers-'] p {
+    /* Bold_12px */
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* light */
+    color: #A5B6EE;
+}
+
+.box-timer {
+    width: 80px;
+    height: 80px;
+    background-image: url(./img/box.png);
+    background-size: contain;
+
+    /* Bold_40px */
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+
+    line-height: 200%;
+}
+
+.btn-start .btn-reset {
+    width: 112px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+footer {
+    margin-top: 60px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8596BF;
+}
